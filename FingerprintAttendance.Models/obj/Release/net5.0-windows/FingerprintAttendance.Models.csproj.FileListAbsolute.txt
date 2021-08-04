@@ -1,0 +1,12 @@
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\bin\Release\net5.0-windows\FingerprintAttendance.Models.deps.json
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\bin\Release\net5.0-windows\FingerprintAttendance.Models.dll
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\bin\Release\net5.0-windows\ref\FingerprintAttendance.Models.dll
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\bin\Release\net5.0-windows\FingerprintAttendance.Models.pdb
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\FingerprintAttendance.Models.csprojAssemblyReference.cache
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\FingerprintAttendance.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\FingerprintAttendance.Models.AssemblyInfoInputs.cache
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\FingerprintAttendance.Models.AssemblyInfo.cs
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\FingerprintAttendance.Models.csproj.CoreCompileInputs.cache
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\FingerprintAttendance.Models.dll
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\ref\FingerprintAttendance.Models.dll
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance.Models\obj\Release\net5.0-windows\FingerprintAttendance.Models.pdb
