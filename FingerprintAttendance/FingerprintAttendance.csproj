@@ -4,6 +4,16 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <ApplicationIcon>logo nnn.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="ftrSDKHelper13">
-      <HintPath>..\..\Vs2013\WorkedEx\ftrSDKHelper13.dll</HintPath>
+    <Reference Include="ftrSDKHelper19">
+      <HintPath>..\ftrSDKHelper\Debug\ftrSDKHelper19.dll</HintPath>
     </Reference>
   </ItemGroup>
 

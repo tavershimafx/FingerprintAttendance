@@ -101,29 +101,29 @@ namespace FingerPrintAttendance.Forms
 
         private void PopulateUI(FingerPrint fingerPrint)
         {
-            fingerprintData = fingerPrint.Thumb;// RecoverOriginalBytes();
+            fingerprintData = fingerPrint.Thumb;
             ThumbThumbnail = fingerPrint.ThumbThumbnail;
             pictureThumb.Image = Image.FromStream(new MemoryStream(fingerPrint.ThumbThumbnail));
             NotifyThumbEnrolled();
 
-            fingerprintData = fingerPrint.IndexFinger;// RecoverOriginalBytes();
+            fingerprintData = fingerPrint.IndexFinger;
             IndexFingerThumbnail = fingerPrint.IndexFingerThumbnail;
-            pictureIndex.Image = Image.FromStream(new MemoryStream(fingerPrint.IndexFingerThumbnail));
+            pictureIndex.Image = fingerPrint.IndexFingerThumbnail != null? Image.FromStream(new MemoryStream(fingerPrint.IndexFingerThumbnail)): null;
             NotifyIndexEnrolled();
 
-            fingerprintData = fingerPrint.MiddleFinger;// RecoverOriginalBytes();
+            fingerprintData = fingerPrint.MiddleFinger;
             MiddleFingerThumbnail = fingerPrint.MiddleFingerThumbnail;
-            pictureMiddle.Image = Image.FromStream(new MemoryStream(fingerPrint.MiddleFingerThumbnail));
+            pictureMiddle.Image = fingerPrint.MiddleFingerThumbnail != null ? Image.FromStream(new MemoryStream(fingerPrint.MiddleFingerThumbnail)): null;
             NotifyMiddleEnrolled();
 
-            fingerprintData = fingerPrint.RingFinger;// RecoverOriginalBytes();
+            fingerprintData = fingerPrint.RingFinger;
             RingFingerThumbnail = fingerPrint.RingFingerThumbnail;
-            pictureRing.Image = Image.FromStream(new MemoryStream(fingerPrint.RingFingerThumbnail));
+            pictureRing.Image = fingerPrint.RingFingerThumbnail != null ? Image.FromStream(new MemoryStream(fingerPrint.RingFingerThumbnail)): null;
             NotifyRingEnrolled();
 
-            fingerprintData = fingerPrint.LittleFinger;// RecoverOriginalBytes();
+            fingerprintData = fingerPrint.LittleFinger;
             LittleFingerThumbnail = fingerPrint.LittleFingerThumbnail;
-            pictureLittle.Image = Image.FromStream(new MemoryStream(fingerPrint.LittleFingerThumbnail));
+            pictureLittle.Image = fingerPrint.LittleFingerThumbnail != null ? Image.FromStream(new MemoryStream(fingerPrint.LittleFingerThumbnail)): null;
             NotifyLittleEnrolled();
         }
 

@@ -13,7 +13,9 @@ C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\FingerprintAttendance.Infrastructure.dll
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\FingerprintAttendance.Models.dll
-C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\ftrSDKHelper13.dll
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\ftrSDKHelper19.dll
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\FingerprintAttendance.Infrastructure.pdb
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\FingerprintAttendance.Infrastructure.dll.config
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\FingerprintAttendance.Models.pdb
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\ftrSDKHelper19.pdb
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\publish\ftrSDKHelper19.xml

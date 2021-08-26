@@ -128,6 +128,7 @@ namespace FingerPrintAttendance.Forms
 
                 InitializeUIData();
             }
+            //this.user = user;
         }
 
         private void UpdateUser()
@@ -146,6 +147,12 @@ namespace FingerPrintAttendance.Forms
                 .Include(x => x.LeftHand)
                 .Include(x => x.RightHand)
                 .FirstOrDefault(x => x.Id == Id);
+
+            if (user == null)
+            {
+                MessageBox.Show("User not found!");
+                return;
+            }
 
             var e = _userRepository.GetValidationErrors(muser);
             if (e.Any())

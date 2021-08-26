@@ -11,8 +11,9 @@ namespace FingerprintAttendance.Infrastructure.Data
     public class ApplicationDbContext : DbContext
     {
         //Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\FingerprintAttendance.mdf;Initial Catalog=FingerprintAttendance;Integrated Security=True"providerName="System.Data.SqlClient
-
-        public ApplicationDbContext() : base("Server=(localdb)\\mssqllocaldb;Database=FingerprintAttendance;Trusted_Connection=True;MultipleActiveResultSets=true")
+        //Server=(localdb)\\mssqllocaldb;Database=FingerprintAttendance;Trusted_Connection=True;MultipleActiveResultSets=true
+        //
+        public ApplicationDbContext() : base("Data Source=SQL5103.site4now.net;Initial Catalog=DB_A6FBB5_AttendanceWokFox;User Id=DB_A6FBB5_AttendanceWokFox_admin;Password=NativeCode123@;")
         {
         }
 

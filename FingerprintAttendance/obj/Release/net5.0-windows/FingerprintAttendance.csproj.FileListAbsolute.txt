@@ -15,7 +15,6 @@ C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\FingerprintAttendance.Infrastructure.dll
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\FingerprintAttendance.Models.dll
-C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\ftrSDKHelper13.dll
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\FingerprintAttendance.Infrastructure.pdb
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\FingerprintAttendance.Infrastructure.dll.config
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\FingerprintAttendance.Models.pdb
@@ -38,6 +37,9 @@ C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\obj
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\obj\Release\net5.0-windows\ref\FingerprintAttendance.dll
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\obj\Release\net5.0-windows\FingerprintAttendance.pdb
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\obj\Release\net5.0-windows\FingerprintAttendance.genruntimeconfig.cache
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\ftrSDKHelper19.dll
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\ftrSDKHelper19.pdb
+C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\ftrSDKHelper19.xml
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\FingerprintAttendance.dll.manifest
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\bin\Release\net5.0-windows\FingerprintAttendance.application
 C:\Users\Tavershima\source\repos\FingerprintAttendance\FingerprintAttendance\obj\Release\net5.0-windows\FingerprintAttendance.dll.manifest

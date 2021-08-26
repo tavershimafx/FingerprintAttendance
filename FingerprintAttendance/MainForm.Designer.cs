@@ -72,16 +72,16 @@ namespace FingerprintAttendance
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.progressSearching = new System.Windows.Forms.ProgressBar();
             this.lblIdentifyStatus = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
             this.picturePreview = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lblLastName = new System.Windows.Forms.Label();
             this.lblFirstName = new System.Windows.Forms.Label();
             this.lblUserName = new System.Windows.Forms.Label();
             this.picturePassport = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.progressSearching = new System.Windows.Forms.ProgressBar();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -458,6 +458,16 @@ namespace FingerprintAttendance
             this.splitContainer1.SplitterDistance = 297;
             this.splitContainer1.TabIndex = 2;
             // 
+            // progressSearching
+            // 
+            this.progressSearching.Location = new System.Drawing.Point(36, 364);
+            this.progressSearching.MarqueeAnimationSpeed = 15;
+            this.progressSearching.Name = "progressSearching";
+            this.progressSearching.Size = new System.Drawing.Size(219, 24);
+            this.progressSearching.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.progressSearching.TabIndex = 3;
+            this.progressSearching.Visible = false;
+            // 
             // lblIdentifyStatus
             // 
             this.lblIdentifyStatus.Location = new System.Drawing.Point(12, 245);
@@ -485,6 +495,16 @@ namespace FingerprintAttendance
             this.picturePreview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picturePreview.TabIndex = 0;
             this.picturePreview.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(127, -1);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(316, 32);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Matched User Information";
             // 
             // label4
             // 
@@ -535,26 +555,6 @@ namespace FingerprintAttendance
             this.picturePassport.TabIndex = 0;
             this.picturePassport.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(127, -1);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(316, 32);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Matched User Information";
-            // 
-            // progressSearching
-            // 
-            this.progressSearching.Location = new System.Drawing.Point(36, 364);
-            this.progressSearching.MarqueeAnimationSpeed = 15;
-            this.progressSearching.Name = "progressSearching";
-            this.progressSearching.Size = new System.Drawing.Size(219, 24);
-            this.progressSearching.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressSearching.TabIndex = 3;
-            this.progressSearching.Visible = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -563,6 +563,7 @@ namespace FingerprintAttendance
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "Fingerprint Attendance";
@@ -635,7 +636,6 @@ namespace FingerprintAttendance
         private System.Windows.Forms.Label lblFirstName;
         private System.Windows.Forms.Label lblUserName;
         private System.Windows.Forms.PictureBox picturePassport;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblIdentifyStatus;
         private System.Windows.Forms.ProgressBar progressSearching;
         private System.Windows.Forms.Label label2;

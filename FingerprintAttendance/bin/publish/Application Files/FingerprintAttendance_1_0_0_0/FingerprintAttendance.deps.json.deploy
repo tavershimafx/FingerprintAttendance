@@ -9,7 +9,7 @@
       "FingerprintAttendance/1.0.0": {
         "dependencies": {
           "FingerprintAttendance.Infrastructure": "1.0.0",
-          "ftrSDKHelper13": "4.2.0.0"
+          "ftrSDKHelper19": "4.2.0.0"
         },
         "runtime": {
           "FingerprintAttendance.dll": {}
@@ -155,11 +155,11 @@
           "FingerprintAttendance.Models.dll": {}
         }
       },
-      "ftrSDKHelper13/4.2.0.0": {
+      "ftrSDKHelper19/4.2.0.0": {
         "runtime": {
-          "ftrSDKHelper13.dll": {
+          "ftrSDKHelper19.dll": {
             "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.1"
+            "fileVersion": "4.2.2029.176"
           }
         }
       }
@@ -314,7 +314,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ftrSDKHelper13/4.2.0.0": {
+    "ftrSDKHelper19/4.2.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
